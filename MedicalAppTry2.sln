@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalApp.Models", "..\MedicalApp.Models\MedicalApp.Models.csproj", "{3BF2239E-4E4C-48DA-96E5-126EB07C85F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalApp.DAL", "..\MedicalApp.DAL\MedicalApp.DAL.csproj", "{7B7331B6-EEAD-4624-B6AA-C9C0D4DC8388}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalApp.BLL", "..\MedicalApp.BLL\MedicalApp.BLL.csproj", "{920A1E2C-B270-4352-BA27-7A8316015272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalApp.WebApi", "..\MedicalApp.WebApi\MedicalApp.WebApi.csproj", "{06451497-7243-4AD2-9137-0423B46511E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{23E24ABE-76E1-45B4-BA56-8B79E0BE1A0D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "react-demo-master", "..\MedicalApp.Web\react-demo-master\react-demo-master\", "{CA519FE1-E90F-494F-81F5-9C6AC952CEAF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51379"
+		Debug.AspNetCompiler.PhysicalPath = "..\MedicalApp.Web\react-demo-master\react-demo-master\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51379\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51379"
+		Release.AspNetCompiler.PhysicalPath = "..\MedicalApp.Web\react-demo-master\react-demo-master\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51379\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51379"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{20697A74-FA24-4A6D-9802-E8AACB9DF920}"
+	ProjectSection(SolutionItems) = preProject
+		ScriptMedical.sql = ScriptMedical.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalApp.DAL.Interfaces", "MedicalApp.DAL.Interfaces\MedicalApp.DAL.Interfaces.csproj", "{C7CD8C77-8236-4A0F-B1F2-7FA19987CD1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BF2239E-4E4C-48DA-96E5-126EB07C85F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF2239E-4E4C-48DA-96E5-126EB07C85F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF2239E-4E4C-48DA-96E5-126EB07C85F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF2239E-4E4C-48DA-96E5-126EB07C85F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7331B6-EEAD-4624-B6AA-C9C0D4DC8388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7331B6-EEAD-4624-B6AA-C9C0D4DC8388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7331B6-EEAD-4624-B6AA-C9C0D4DC8388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7331B6-EEAD-4624-B6AA-C9C0D4DC8388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920A1E2C-B270-4352-BA27-7A8316015272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920A1E2C-B270-4352-BA27-7A8316015272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920A1E2C-B270-4352-BA27-7A8316015272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920A1E2C-B270-4352-BA27-7A8316015272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06451497-7243-4AD2-9137-0423B46511E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06451497-7243-4AD2-9137-0423B46511E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06451497-7243-4AD2-9137-0423B46511E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06451497-7243-4AD2-9137-0423B46511E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA519FE1-E90F-494F-81F5-9C6AC952CEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA519FE1-E90F-494F-81F5-9C6AC952CEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA519FE1-E90F-494F-81F5-9C6AC952CEAF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA519FE1-E90F-494F-81F5-9C6AC952CEAF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C7CD8C77-8236-4A0F-B1F2-7FA19987CD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CD8C77-8236-4A0F-B1F2-7FA19987CD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CD8C77-8236-4A0F-B1F2-7FA19987CD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CD8C77-8236-4A0F-B1F2-7FA19987CD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFC0DE3B-4FD9-4C32-A8E3-D5E54C3BA525}
+	EndGlobalSection
+EndGlobal
